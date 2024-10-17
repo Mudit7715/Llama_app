@@ -9,7 +9,7 @@ from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core.memory import ChatMemoryBuffer
 
 # Load and process data
-with open("MSME_final.txt", 'r', encoding='utf-8') as file:
+with open("docs/MSME_final.txt", 'r', encoding='utf-8') as file:
     content = file.read()
 
 chunks = [chunk.strip() for chunk in content.split('--------------------------------------') if chunk.strip()]
