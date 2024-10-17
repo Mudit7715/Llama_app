@@ -1,7 +1,6 @@
 import os
 import openai
 import nest_asyncio
-import chromadb
 import streamlit as st
 from llama_index.core.schema import TextNode
 from llama_index.core import VectorStoreIndex, StorageContext
